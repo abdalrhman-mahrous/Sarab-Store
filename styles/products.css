@@ -1,3 +1,11 @@
+.our-products-header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  margin-top: 16px;
+  padding: 18px;
+}
 .products-container {
   margin: 24px;
   display: grid;
