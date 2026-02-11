@@ -8,6 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/myCart.css" />
     <title>SARAB</title>
   </head>
   <body>
@@ -41,7 +42,48 @@
         </div>
       </div>
     </header>
-
+    <main>
+      <h1>My Shopping Cart</h1>
+      <div class="content-wrapper-mycart">
+        <div class="item-in-cart">
+          <div class="img-for-item-in-cart">
+            <a href="#">
+              <img src="/images/hoodie.jpg" alt="hoddie" />
+            </a>
+          </div>
+          <div class="in-cart-item-details">
+            <div class="incart-product-name">
+              <p>Men's Velvet Slim Fit Full Zip Tie</p>
+            </div>
+            <div class="incart-product-price">
+              <p>3.99$</p>
+            </div>
+          </div>
+          <div class="counter-wrapper">
+            <div class="quantity-button">
+              <button>+</button>
+              <span>1</span>
+              <button>-</button>
+            </div>
+          </div>
+          <div class="delete">
+            <button type="button" aria-label="Remove item">
+              <svg
+                class="delete-icon"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                aria-hidden="true"
+              >
+                <path
+                  d="M4 5h16v2H4V5zm2 2h12l-1 14H7L6 7zm3-4h6l1 2H8l1-2zm0 6h2v9H9V9zm4 0h2v9h-2V9z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer>
       <div class="footer-container">
         <div class="quick-links">
